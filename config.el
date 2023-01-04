@@ -32,7 +32,7 @@
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
 ;; `load-theme' function. This is the default:
-(setq doom-theme 'misterioso)
+(setq doom-theme 'doom-dracula)
 
 (add-hook! 'window-setup-hook (x-focus-frame nil))
 
@@ -151,3 +151,5 @@ nothing happens."
 
 (setq frame-title-format "%b - vim")
 (setq ns-use-proxy-icon nil)
+(setq require-final-newline nil)
+(setq mode-require-final-newline nil)
